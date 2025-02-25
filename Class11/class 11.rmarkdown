@@ -1,0 +1,59 @@
+---
+title: "AlphaFold Analysis"
+author: "Dora Deng (A17445600)"
+format: pdf
+---
+
+
+
+Here we analyze our AlphaFold structure prediction models. The input directory/folder comes from the ColabFold server: 
+
+
+
+```{r}
+results_dir <- "hivpr_monomer_94b5b_1" 
+```
+
+```{r}
+# File names for all PDB models
+pdb_files <- list.files(path=results_dir,
+                        pattern="*.pdb",
+                        full.names = TRUE)
+
+# Print our PDB file names
+basename(pdb_files)
+```
+
+
+
+I will use the Bio3D package for analysis
+
+
+```{r}
+library(bio3d)
+
+# Read all data from Models 
+#  and superpose/fit coords
+pdbs <- pdbaln(pdb_files, fit=TRUE, exefile="msa")
+```
+
+
+
+## RMSD analysis 
+RMSD is a common measure of stuctural distance used in structual biology 
+
+
+
+```{r}
+rd <- rmsd(pdbs, fit=T)
+range(rd)
+```
+
+```{r}
+library(pheatmap)
+
+colnames(rd) <- paste0("m",1:5)
+rownames(rd) <- paste0("m",1:5)
+pheatmap(rd)
+```
+

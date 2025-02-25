@@ -1,0 +1,32 @@
+---
+title: "Class06 Homework"
+author: "Dora Deng (A17445600)"
+format: pdf
+---
+
+# Can you improve this analysis code?
+
+## Explanation for this function: 
+This function that I created take the input string, which is the protein code, and it reads the PDB file of the input string. Then, we use the trim.pdb function to create a smaller PDB object. After that, it will take the output of s.chainA and accessing the atom column and b element. Finally, the function creates a plot of the output from s.b and label x as Bfactor and y as residue. 
+
+```{r}
+library(bio3d) 
+
+analysis_fun <- function(string){
+  s.name <- read.pdb(string)
+  s.chainA <- trim.pdb(s.name, chain="A", elety="CA")
+  s.b <- s.chainA$atom$b
+  plotb3(s.b, sse=s.chainA, typ="l", ylab="Bfactor")
+  
+}
+
+analysis_fun("4AKE")
+analysis_fun("1AKE")
+analysis_fun("1E4Y")
+```
+
+
+
+
+
+
