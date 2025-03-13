@@ -15,4 +15,10 @@ My classwork from WI25 BIMM 143 at UC San Diego [BIMM143](https://bioboot.github
 
 - Class10 [Structural Bioinformatics (pt1)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class10/class10.html)
 
-- Class11 [Structural Bioinformatics (pt2)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class11/class%2011.html))
+- Class11 [Structural Bioinformatics (pt2)](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class11/class%2011.html)
+
+- Class12 [Genome informatics and high throughput sequencing](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class12/Class12.html)
+
+- Class13 [Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class13/Class13.html)
+
+- Class14 [RNA-Seq mini project](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class14/Class14.html)
