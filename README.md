@@ -9,7 +9,7 @@ My classwork from WI25 BIMM 143 at UC San Diego [BIMM143](https://bioboot.github
 
 - Class07 [Introduction to Machine Learning to Bioinformatics](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class07/Class07_Machine_Learning_1.html)
 
-- Class08 [Unsuperivsed learning mini-project](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class08_mini_project/Class%2008_project.html)
+- Class08 [Unsupervised learning mini-project](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class08_mini_project/Class%2008_project.html)
 
 - Class09 [Halloween Candy Mini-Project](https://htmlpreview.github.io/?https://raw.githubusercontent.com/m1deng/BIMM143_github/refs/heads/main/Class%2009/class%2009%20mini%20project%20.html)
 
